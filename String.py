@@ -30,6 +30,10 @@ l = ["a", "b", "c", "d"]
 "2".join(l) #a2b2c2d
 
 
+my_string = "This is a sample string with spaces"
+my_list = my_string.split() #['This', 'is', 'a', 'sample', 'string', 'with', 'spaces']
+
+
 varialbe = "Hello SR, How are you!"
 varialbe.find("SR") #6
 varialbe.find("SR5") #-1
