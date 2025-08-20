@@ -17,6 +17,27 @@ myName[::-1]   #somsoC
 s = "hey"
 "he" in s #Ture
 
+
+"aman" > "vinay" #false   
+"aman" < "Aakash" #false  as  py check it by lexiographically
+
+mytext= r"hello this is \n raw text" #hello this is \n raw text
+myunicode= u"\U0001f600" #😀
+a= True + 5 #6
+
+
+a = "@352523"
+print(a[-1])
+
+
+
+not "" #true
+not "hello" #false
+"" or "something"  #OUTPUT:True  as ("" -> False)  or  ("something" -> True)  which gives (0 or 1) = 1 (True)
+"someting1" or ("something2") #OUTPUT: something1  as or condition will just check the first condition (which is true)
+"someting1" and ("something2") #OUTPUT: something2 as result needs both conditions to be true. so it will last fall at condition2 
+
+
 S = "my_name_is_Vinay"
 S.split("_") #['my', 'name', 'is', 'Vinay']
 
